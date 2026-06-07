@@ -1,33 +1,36 @@
-cff-version: 1.2.0
-message: "If you use this dataset, please cite both the paper and the archived dataset."
+cff-version: "1.2.0"
+message: "If you use this dataset, please cite the paper below."
 title: "LLM-VulnGen: A Benchmark Dataset of LLM-Generated Web Vulnerabilities"
 type: dataset
+
 authors:
-  - family-names: "Sheikhi"
-    given-names: "Saeid"
-    orcid: "https://orcid.org/0000-0002-3600-966X"
-    affiliation: "Center for Applied Computing, University of Oulu"
-  - family-names: "Loven"
-    given-names: "Lauri"
-    affiliation: "Center for Applied Computing, University of Oulu"
-license: CC-BY-4.0
+
+* family-names: "Sheikhi"
+  given-names: "Saeid"
+  orcid: "https://orcid.org/0000-0002-3600-966X"
+  affiliation: "Center for Applied Computing, University of Oulu"
+* family-names: "Loven"
+  given-names: "Lauri"
+  affiliation: "Center for Applied Computing, University of Oulu"
+
+license: "CC-BY-4.0"
 version: "1.0.0"
-date-released: "2026-01-01"
+
 keywords:
-  - LLM security
-  - web vulnerabilities
-  - code generation
-  - benchmark dataset
-  - prompt engineering
-# Once you have a Zenodo DOI, fill it in here:
-# doi: "10.5281/zenodo.XXXXXXX"
+
+* "LLM security"
+* "web vulnerabilities"
+* "code generation"
+* "benchmark dataset"
+* "prompt engineering"
+
 preferred-citation:
-  type: conference-paper
-  title: "LLM-VulnGen: A Benchmark Dataset of LLM-Generated Web Vulnerabilities"
-  authors:
-    - family-names: "Sheikhi"
-      given-names: "Saeid"
-    - family-names: "Loven"
-      given-names: "Lauri"
-  collection-title: "Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM)"
-  year: 2026
+type: conference-paper
+title: "LLM-VulnGen: A Benchmark Dataset of LLM-Generated Web Vulnerabilities"
+authors:
+- family-names: "Sheikhi"
+given-names: "Saeid"
+- family-names: "Loven"
+given-names: "Lauri"
+collection-title: "Proceedings of the ACM International Conference on Information and Knowledge Management"
+year: 2026
