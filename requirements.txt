@@ -1,0 +1,4 @@
+# Core scripts (load_dataset.py, compute_statistics.py) use only the Python
+# standard library and require no third-party packages.
+# pandas is optional and only needed for the CSV examples in the README.
+pandas>=1.3

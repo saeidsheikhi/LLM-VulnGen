@@ -1,0 +1,42 @@
+{
+  "total_samples": 1080,
+  "vulnerable_samples": 961,
+  "vulnerability_rate": 88.98148148148148,
+  "models": [
+    "Gemma3_27b",
+    "DeepSeek_7b",
+    "Mistral_7b",
+    "phi4_14b"
+  ],
+  "vulnerability_types": {
+    "sqli": 886,
+    "xss": 359,
+    "cmdi": 355,
+    "path_traversal": 536,
+    "ssrf": 124,
+    "insecure_deserialization": 7
+  },
+  "generation_date": "2025-11-16T21:18:51.396396",
+  "model_statistics": {
+    "Gemma3_27b": {
+      "total": 270,
+      "vulnerable": 259,
+      "rate": 95.92592592592592
+    },
+    "DeepSeek_7b": {
+      "total": 270,
+      "vulnerable": 265,
+      "rate": 98.14814814814815
+    },
+    "Mistral_7b": {
+      "total": 270,
+      "vulnerable": 219,
+      "rate": 81.11111111111111
+    },
+    "phi4_14b": {
+      "total": 270,
+      "vulnerable": 218,
+      "rate": 80.74074074074075
+    }
+  }
+}
