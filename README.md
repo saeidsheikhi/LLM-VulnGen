@@ -141,7 +141,7 @@ If you use LLM-VulnGen, please cite:
 @inproceedings{sheikhi2026llmvulngen,
   title     = {LLM-VulnGen: A Benchmark Dataset of LLM-Generated Web Vulnerabilities},
   author    = {Sheikhi, Saeid and Loven, Lauri},
-  booktitle = {Proceedings of the ACM International Conference on Information and Knowledge Management},
+  booktitle = {Proceedings of the ACM International Conference},
   year      = {2026}
 }
 ```
